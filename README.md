@@ -33,12 +33,6 @@ Provided solution purely focuses on re-creating Loading component that is extend
 
 The proposed UI component is set to default parameters. Functionality to control paramteres was added to allow testing of React skills. Adding max amount of bubbles (100) is likely to be suboptimal in terms of speed/UI. 
 
-## Built With
-
-* [React](https://reactjs.org/) - The web framework used
-* [Styled-components](https://styled-components.com/docs/basics) - Styling and UI. 
-* [Bulma](https://bulma.io/) - CSS Framework + extensions for uncommon components (e.g. Slider)
-
 ## Justifying the solution
 
 While the UI component is required to be used in both `transition screen` and `employer dashboard` it is important to assess the reusability and potential effect on UX. 
@@ -51,7 +45,7 @@ Thus, the most feasible solution is to provide an alternative to `spinner`, pote
 
 #### UI explanation
 After assessing company's branding, logo and color scheme, several conclusions can be made: 
-* Primary colors are green (`#4fadb5`) and orange (`#FF7D45`)
+* Primary colors are green (`#4FADB5`) and orange (`#FF7D45`)
 * The logo uses U-shaped 'connector' or smile (positive branding like Amazon)
 * 2 Bubbles can be visualised as `Employer` and `Employee`, while Flexy (U shape) connects them
 
@@ -71,6 +65,11 @@ For example:
 
 Proposed (potentially improved solution) can be used in the [mobile app](https://ibb.co/Yjf9009) upon launching it (e.g. Splash Screen).
 
+## Built With
+
+* [React](https://reactjs.org/) - The web framework used
+* [Styled-components](https://styled-components.com/docs/basics) - Styling and UI. 
+* [Bulma](https://bulma.io/) - CSS Framework + extensions for uncommon components (e.g. Slider)
 
 
 
